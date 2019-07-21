@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/codecademy-ravenous/static/css/main.16939631.chunk.css",
+    "main.js": "/codecademy-ravenous/static/js/main.5332f15a.chunk.js",
+    "main.js.map": "/codecademy-ravenous/static/js/main.5332f15a.chunk.js.map",
+    "runtime~main.js": "/codecademy-ravenous/static/js/runtime~main.18ac4198.js",
+    "runtime~main.js.map": "/codecademy-ravenous/static/js/runtime~main.18ac4198.js.map",
+    "static/js/2.fa623c7d.chunk.js": "/codecademy-ravenous/static/js/2.fa623c7d.chunk.js",
+    "static/js/2.fa623c7d.chunk.js.map": "/codecademy-ravenous/static/js/2.fa623c7d.chunk.js.map",
+    "index.html": "/codecademy-ravenous/index.html",
+    "precache-manifest.bd35397e060229a872a9cb257e56d228.js": "/codecademy-ravenous/precache-manifest.bd35397e060229a872a9cb257e56d228.js",
+    "service-worker.js": "/codecademy-ravenous/service-worker.js",
+    "static/css/main.16939631.chunk.css.map": "/codecademy-ravenous/static/css/main.16939631.chunk.css.map",
+    "static/media/SearchBar.scss": "/codecademy-ravenous/static/media/background_search_mobile.5d0905e6.jpg"
+  }
+}
