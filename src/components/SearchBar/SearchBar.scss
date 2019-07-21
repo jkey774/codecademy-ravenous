@@ -1,0 +1,131 @@
+.SearchBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("./background_search_desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+.SearchBar-sort-options {
+  margin-bottom: 2.22rem;
+  text-align: center;
+  color: #fff;
+  padding: 0;
+}
+
+.SearchBar-sort-options li {
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+  padding: 0 2.58rem 0.33rem 2.58rem;
+  line-height: 1.13;
+  text-align: center;
+  font-weight: 600;
+  transition: color 0.25s;
+  box-sizing: content-box;
+  border-radius: 0;
+}
+
+.SearchBar-sort-options li:hover {
+  color: #d4cfcf;
+}
+
+.SearchBar-sort-options li.active,
+.SearchBar-sort-options li.active:hover {
+  border-bottom: 1px solid #f0c36c;
+  color: #f0c36c;
+}
+
+.SearchBar-fields {
+  text-align: center;
+  margin-bottom: 1.88rem;
+  padding: 0 1.88rem;
+  @media only screen and (min-width: 480px) and (max-width: 768px) {
+    padding: 0 4rem;
+  }
+  @media only screen and (min-width: 769px) {
+    margin-bottom: 2.88rem;
+    padding: 0 20px;
+  }
+}
+
+.SearchBar-fields > div {
+  width: 21rem;
+  font-size: 0.77rem;
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: top;
+  // &:first-child {
+  //   margin-right: 2.22rem;
+  // }
+  &:last-child {
+    margin-left: 2.22rem;
+  }
+}
+
+.SearchBar-fields input {
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 21rem;
+  box-sizing: border-box;
+}
+
+.SearchBar-fields .error-label {
+  margin-top: 0.66rem;
+  position: relative;
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.SearchBar-submit {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .SearchBar {
+    background-image: url("./background_search_mobile.jpg");
+  }
+
+  .SearchBar-sort-options ul {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .SearchBar-sort-options li {
+    display: inline-block;
+    margin: 1rem auto 0 auto;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .SearchBar-fields {
+    > div {
+      display: block;
+      &:first-child,
+      &:last-child {
+        margin: 0 auto 0.86rem auto;
+      }
+    }
+    > div,
+    input {
+      width: 100%;
+    }
+  }
+}

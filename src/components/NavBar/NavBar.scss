@@ -1,0 +1,22 @@
+.NavBar {
+  background-color: #cca353;
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+  }
+  .navbar-brand {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+}
