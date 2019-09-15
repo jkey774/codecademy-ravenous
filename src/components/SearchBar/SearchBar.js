@@ -27,16 +27,16 @@ class SearchBar extends Component {
     this.handleSearch = this.handleSearch.bind(this);
   }
 
-  handleTermChange = evt => {
-    this.setState({
-      term: evt.target.value
-    });
+  handleTermChange = e => {
+    let term = { ...this.state.term };
+    term = e.currentTarget.value;
+    this.setState({ term });
   };
 
-  handleLocationChange = evt => {
-    this.setState({
-      location: evt.target.value
-    });
+  handleLocationChange = e => {
+    let location = { ...this.state.location };
+    location = e.currentTarget.value;
+    this.setState({ location });
   };
 
   handleSortByChange(sortByOption) {
